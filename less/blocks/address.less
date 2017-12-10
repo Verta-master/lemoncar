@@ -4,7 +4,7 @@
   color: #3c3c3c;
   font-size: 20px;
   font-style: normal;
-  padding-left: 45px;
+  padding-left: 40px;
   position: relative;
   margin-right: auto;
   
@@ -19,15 +19,23 @@
 
 .address {
   margin-bottom: 15px;
+  padding-top: 10px;
   
   &::before {
     width: 21px;
     height: 28px;
+    top: 12px;
     background-image: url(../img/icon-pin.png);
   }
   
   &--footer {
     margin: 0;
+    padding-top: 0;
+    margin-left: 180px;
+    
+    &::before {
+      top: 0;
+    }
   }
 }
 

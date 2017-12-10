@@ -1,0 +1,79 @@
+.arcticmodal-overlay,
+.arcticmodal-container { position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 1000; }
+.arcticmodal-container { overflow: auto; margin: 0; padding: 0; border: 0; border-collapse: collapse; }
+*:first-child+html .arcticmodal-container { height: 100% }
+.arcticmodal-container_i { height: 100%; margin: 0 auto; }
+.arcticmodal-container_i2 { padding: 24px; margin: 0; border: 0; vertical-align: middle; }
+.arcticmodal-error { padding: 20px; border-radius: 10px; background: #000; color: #fff; }
+.arcticmodal-loading { width: 80px; height: 80px; border-radius: 10px; background: #000 url(loading.gif) no-repeat 50% 50%; }
+
+.modal {
+  position: absolute;
+  width: 100vw;
+  padding-top: 45px;
+  left: 0;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  background-image: url(../img/bg-modal.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+}
+
+.modal__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/icon-menu-cross.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.modal__input {
+  width: 302px;
+  height: 51px;
+  margin-right: 10px;
+  padding: 0 30px;
+  border-radius: 30px;
+  color: #282f39;
+  background-color: rgba(176,176,176,0.68);
+  
+  &::placeholder {
+    opacity: 1;
+  }
+}
+
+.modal__btn {
+  display: inline-block;
+  width: 206px;
+  height: 53px;
+  background-color: #24c408;
+  color: #fff;
+}
+
+.modal__comment {
+  color: #282f39;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 200px;
+  max-width: 500px;
+  text-align: left;
+}
