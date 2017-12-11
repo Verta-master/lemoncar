@@ -1958,6 +1958,7 @@ button.swiper-pagination-bullet {
   }
   .menu--opened .menu__btn {
     margin-bottom: 15px;
+    background-image: url(../img/icon-menu-cross.svg);
   }
   .about__list {
     -ms-flex-pack: start;
